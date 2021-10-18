@@ -42,19 +42,19 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
                 out.setdefault(package, []).append(prefix+name)
     return out
 
-setup(name='docassemble.ALGenericJurisdiction',
+setup(name='docassemble.ALLouisianaSC',
       version='0.0.4',
-      description=("Generic package that you can customize for your own state/jurisdiction's need"),
-      long_description="# docassemble.ALGenericJurisdiction\r\n\r\nGeneric package that you can customize for your own state/jurisdiction's need\r\n\r\n## Author\r\n\r\nSystem Administrator, admin@admin.com\r\n\r\n",
+      description=("A package customized for Louisiana, specifically the Supreme Court"),
+      long_description="# docassemble.ALLouisianaSC\r\n\r\nA package customized for Louisiana, specifically the Supreme Court\r\n\r\n## Author\r\n\r\nAmanda Brown\r\n\r\n",
       long_description_content_type='text/markdown',
       author='System Administrator',
       author_email='admin@admin.com',
       license='The MIT License (MIT)',
       url='https://docassemble.org',
       packages=find_packages(),
-      namespace_packages=['docassemble'],
+      namespace_packages=['docassemble', 'docassemble-AssemblyLine'],
       install_requires=[],
       zip_safe=False,
-      package_data=find_package_data(where='docassemble/ALGenericJurisdiction/', package='docassemble.ALGenericJurisdiction'),
+      package_data=find_package_data(where='docassemble/ALLouisianaSC/', package='docassemble.ALLouisianaSC'),
      )
 
