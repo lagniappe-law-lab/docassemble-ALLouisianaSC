@@ -1,8 +1,8 @@
-# docassemble.ALGenericJurisdiction
+# docassemble.ALLouisianaSC
 
-Generic package that you can customize for your own state/jurisdiction's need
+A package customized for Louisiana, specifically the Supreme Court
 
 ## Author
 
-System Administrator, admin@admin.com
+Amanda Brown
 
