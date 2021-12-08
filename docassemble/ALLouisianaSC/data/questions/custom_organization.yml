@@ -16,19 +16,21 @@ objects:
   # the court database can be an Excel, CSV, or JSON data file
   - all_courts: ALCourtLoader.using(file_name="court_sample.xlsx")
 ---  
-comment: |
-  You will want to upload a new icon to the "static" folder and update the path
-  in the "logo" area below, as well as updating each metadata field below.
-metadata:
+default screen parts:
   title: |
     File Louisiana Legal Forms Online
   short title: |
     File forms  
   title url: https://www.lasc.org
-  logo: |
-    <img src="/packagestatic/docassemble.ALLouisianaSC/lsac_logo.png" class="ma_icon" alt="Logo"><div class="title">File Louisiana Legal Forms Online</div>
-  exit url: |
-    https://www.lasc.org
+---
+code: |
+  AL_ORGANIZATION_TITLE = "File Louisiana Legal Forms Online"
+---
+code: |
+  AL_ORGANIZATION_HOMEPAGE = "https://www.lasc.org/"
+---
+objects:
+  - al_logo: DAStaticFile.using(filename="lsac_logo.png")
 ---
 features:
   question help button: True

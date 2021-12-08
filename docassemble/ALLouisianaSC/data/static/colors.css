@@ -3,6 +3,10 @@
 }
 */
 
+.al-logo img {
+  max-height: 40px;
+}
+
 .ma_icon {
     position: relative;
     height: 40px;
