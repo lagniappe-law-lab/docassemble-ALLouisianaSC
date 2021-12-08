@@ -24,11 +24,11 @@ metadata:
     File Louisiana Legal Forms Online
   short title: |
     File forms  
-  title url: https://www.example.com
+  title url: https://www.lasc.org
   logo: |
     <img src="/packagestatic/docassemble.ALLouisianaSC/lsac_logo.png" class="ma_icon" alt="Logo"><div class="title">File Louisiana Legal Forms Online</div>
   exit url: |
-    https://www.example.com
+    https://www.lasc.org
 ---
 features:
   question help button: True
