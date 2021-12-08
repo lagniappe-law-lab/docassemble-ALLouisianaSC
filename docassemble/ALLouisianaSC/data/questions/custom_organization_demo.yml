@@ -8,6 +8,10 @@ include:
   - docassemble.AssemblyLine:al_package.yml
   - custom_organization.yml
 ---
+metadata:
+  title: |
+    Custom Organization Demo
+---
 comment: |
   These are placeholder values for some of the mandatory values that need to
   be defined.
