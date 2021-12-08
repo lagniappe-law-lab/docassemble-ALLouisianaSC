@@ -16,7 +16,7 @@ objects:
   # the court database can be an Excel, CSV, or JSON data file
   - all_courts: ALCourtLoader.using(file_name="court_sample.xlsx")
 ---  
-default screen parts:
+metadata:
   title: |
     File Louisiana Legal Forms Online
   short title: |
