@@ -30,7 +30,7 @@ code: |
   AL_ORGANIZATION_HOMEPAGE = "https://www.lasc.org/"
 ---
 objects:
-  - al_logo: DAStaticFile.using(filename="lasc_logo_resized.png")
+  - al_logo: DAStaticFile.using(filename="LASC_Logo_40x40px.png")
 ---
 features:
   question help button: True
